@@ -22,3 +22,7 @@ projects[schemaorg][version] = "1.0-rc1"
 ; Site Map
 projects[site_map][version] = 1.2
 projects[site_map][subdir] = contrib
+
+; XML Sitemap
+projects[site_map][version] = 2.2
+projects[site_map][subdir] = contrib
