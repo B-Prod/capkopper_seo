@@ -24,5 +24,5 @@ projects[site_map][version] = 1.2
 projects[site_map][subdir] = contrib
 
 ; XML Sitemap
-projects[site_map][version] = 2.2
-projects[site_map][subdir] = contrib
+projects[xmlsitemap][version] = 2.2
+projects[xmlsitemap][subdir] = contrib
