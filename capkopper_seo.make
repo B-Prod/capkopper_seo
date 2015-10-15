@@ -9,7 +9,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.7
 
 ; Redirect
-projects[redirect][version] = 1.0-rc2
+projects[redirect][version] = 1.0-rc3
 projects[redirect][subdir] = contrib
 
 projects[redirect][patch][905914] = https://www.drupal.org/files/issues/redirect-merge-global-redirect-905914-195.patch
