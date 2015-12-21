@@ -1,7 +1,10 @@
 name = capKopper SEO
 core = 7.x
 package = capKopper
-version = 7.x-1.0-rc1
+version = 7.x-1.0-rc2
+dependencies[] = defaultconfig
 dependencies[] = metatag
 dependencies[] = redirect
-dependencies[] = site_map
+features[defaultconfig][] = default_page_manager_pages:site_map
+features[features_api][] = api:2
+

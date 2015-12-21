@@ -19,10 +19,6 @@ projects[schemaorg][type] = module
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-rc1
 
-; Site Map
-projects[site_map][version] = 1.3
-projects[site_map][subdir] = contrib
-
 ; XML Sitemap
 projects[xmlsitemap][version] = 2.2
 projects[xmlsitemap][subdir] = contrib
