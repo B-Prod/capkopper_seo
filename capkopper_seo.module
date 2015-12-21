@@ -3,3 +3,22 @@
  * @file
  * Code for the capKopper SEO feature.
  */
+
+/**
+ * Implements hook_page_build().
+ */
+function capkopper_seo_page_build(&$page) {
+  // No need to add hreflang tags for 404/403 pages.
+  $status = drupal_get_http_header('status');
+  if ($status == '404 Not Found' || $status == '403 Forbidden') {
+    return;
+  }
+
+  $attributes = array(
+    'href' => url(drupal_is_front_page() ? '' : $_GET['q'], array('absolute' => TRUE)),
+    'rel' => 'alternate',
+    'hreflang' => language_default('language'),
+  );
+  drupal_add_html_head_link($attributes);
+}
+
